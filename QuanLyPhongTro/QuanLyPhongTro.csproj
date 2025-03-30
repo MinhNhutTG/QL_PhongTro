@@ -308,23 +308,11 @@
     <Compile Include="GUI\UC\Report\UC_Report.Designer.cs">
       <DependentUpon>UC_Report.cs</DependentUpon>
     </Compile>
-    <Compile Include="GUI\UC\Report\UC_ReportContract.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="GUI\UC\Report\UC_ReportContract.Designer.cs">
-      <DependentUpon>UC_ReportContract.cs</DependentUpon>
-    </Compile>
     <Compile Include="GUI\UC\Report\UC_ReportService.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="GUI\UC\Report\UC_ReportService.Designer.cs">
       <DependentUpon>UC_ReportService.cs</DependentUpon>
-    </Compile>
-    <Compile Include="GUI\UC\Report\UC_RoomStatus.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="GUI\UC\Report\UC_RoomStatus.Designer.cs">
-      <DependentUpon>UC_RoomStatus.cs</DependentUpon>
     </Compile>
     <Compile Include="GUI\UC\UC_Main.cs">
       <SubType>UserControl</SubType>
@@ -425,14 +413,8 @@
     <EmbeddedResource Include="GUI\UC\Report\UC_Report.resx">
       <DependentUpon>UC_Report.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="GUI\UC\Report\UC_ReportContract.resx">
-      <DependentUpon>UC_ReportContract.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="GUI\UC\Report\UC_ReportService.resx">
       <DependentUpon>UC_ReportService.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="GUI\UC\Report\UC_RoomStatus.resx">
-      <DependentUpon>UC_RoomStatus.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="GUI\UC\UC_Main.resx">
       <DependentUpon>UC_Main.cs</DependentUpon>

@@ -21,16 +21,7 @@ namespace QuanLyPhongTro.GUI.UC.Report
             panelMain.Controls.Add(uc);
         }
 
-      
 
-       
-       
-        private void btnHopDong_Click(object sender, EventArgs e)
-        {
-            UC_ReportContract uc = new UC_ReportContract();
-            panelMain.Controls.Clear();
-            panelMain.Controls.Add(uc);
-        }
 
         private void btnDichVu_Click(object sender, EventArgs e)
         {
