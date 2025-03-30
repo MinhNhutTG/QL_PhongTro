@@ -1,0 +1,194 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\tuhin\\Desktop\\QL PHONG TRO\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A4F665BB-6EF3-4F6B-AE26-F5C1D8B4E325}|QuanLyPhongTro\\QuanLyPhongTro.csproj|c:\\users\\tuhin\\desktop\\ql phong tro\\quanlyphongtro\\gui\\forms\\formreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A4F665BB-6EF3-4F6B-AE26-F5C1D8B4E325}|QuanLyPhongTro\\QuanLyPhongTro.csproj|solutionrelative:quanlyphongtro\\gui\\forms\\formreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4F665BB-6EF3-4F6B-AE26-F5C1D8B4E325}|QuanLyPhongTro\\QuanLyPhongTro.csproj|C:\\Users\\tuhin\\Desktop\\QL PHONG TRO\\quanlyphongtro\\handle\\handles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4F665BB-6EF3-4F6B-AE26-F5C1D8B4E325}|QuanLyPhongTro\\QuanLyPhongTro.csproj|solutionrelative:quanlyphongtro\\handle\\handles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4F665BB-6EF3-4F6B-AE26-F5C1D8B4E325}|QuanLyPhongTro\\QuanLyPhongTro.csproj|C:\\Users\\tuhin\\Desktop\\QL PHONG TRO\\quanlyphongtro\\dal\\dal_report.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4F665BB-6EF3-4F6B-AE26-F5C1D8B4E325}|QuanLyPhongTro\\QuanLyPhongTro.csproj|solutionrelative:quanlyphongtro\\dal\\dal_report.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4F665BB-6EF3-4F6B-AE26-F5C1D8B4E325}|QuanLyPhongTro\\QuanLyPhongTro.csproj|C:\\Users\\tuhin\\Desktop\\QL PHONG TRO\\quanlyphongtro\\bll\\bll_report.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4F665BB-6EF3-4F6B-AE26-F5C1D8B4E325}|QuanLyPhongTro\\QuanLyPhongTro.csproj|solutionrelative:quanlyphongtro\\bll\\bll_report.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4F665BB-6EF3-4F6B-AE26-F5C1D8B4E325}|QuanLyPhongTro\\QuanLyPhongTro.csproj|C:\\Users\\tuhin\\Desktop\\QL PHONG TRO\\quanlyphongtro\\dal\\dal_bill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4F665BB-6EF3-4F6B-AE26-F5C1D8B4E325}|QuanLyPhongTro\\QuanLyPhongTro.csproj|solutionrelative:quanlyphongtro\\dal\\dal_bill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4F665BB-6EF3-4F6B-AE26-F5C1D8B4E325}|QuanLyPhongTro\\QuanLyPhongTro.csproj|C:\\Users\\tuhin\\Desktop\\QL PHONG TRO\\quanlyphongtro\\gui\\forms\\formreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4F665BB-6EF3-4F6B-AE26-F5C1D8B4E325}|QuanLyPhongTro\\QuanLyPhongTro.csproj|solutionrelative:quanlyphongtro\\gui\\forms\\formreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4F665BB-6EF3-4F6B-AE26-F5C1D8B4E325}|QuanLyPhongTro\\QuanLyPhongTro.csproj|C:\\Users\\tuhin\\Desktop\\QL PHONG TRO\\quanlyphongtro\\gui\\uc\\report\\uc_revenue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4F665BB-6EF3-4F6B-AE26-F5C1D8B4E325}|QuanLyPhongTro\\QuanLyPhongTro.csproj|solutionrelative:quanlyphongtro\\gui\\uc\\report\\uc_revenue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4F665BB-6EF3-4F6B-AE26-F5C1D8B4E325}|QuanLyPhongTro\\QuanLyPhongTro.csproj|C:\\Users\\tuhin\\Desktop\\QL PHONG TRO\\quanlyphongtro\\bll\\bll_bill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4F665BB-6EF3-4F6B-AE26-F5C1D8B4E325}|QuanLyPhongTro\\QuanLyPhongTro.csproj|solutionrelative:quanlyphongtro\\bll\\bll_bill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4F665BB-6EF3-4F6B-AE26-F5C1D8B4E325}|QuanLyPhongTro\\QuanLyPhongTro.csproj|C:\\Users\\tuhin\\Desktop\\QL PHONG TRO\\quanlyphongtro\\gui\\uc\\report\\uc_revenue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A4F665BB-6EF3-4F6B-AE26-F5C1D8B4E325}|QuanLyPhongTro\\QuanLyPhongTro.csproj|solutionrelative:quanlyphongtro\\gui\\uc\\report\\uc_revenue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4F665BB-6EF3-4F6B-AE26-F5C1D8B4E325}|QuanLyPhongTro\\QuanLyPhongTro.csproj|C:\\Users\\tuhin\\Desktop\\QL PHONG TRO\\quanlyphongtro\\gui\\uc\\report\\uc_report.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A4F665BB-6EF3-4F6B-AE26-F5C1D8B4E325}|QuanLyPhongTro\\QuanLyPhongTro.csproj|solutionrelative:quanlyphongtro\\gui\\uc\\report\\uc_report.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4F665BB-6EF3-4F6B-AE26-F5C1D8B4E325}|QuanLyPhongTro\\QuanLyPhongTro.csproj|C:\\Users\\tuhin\\Desktop\\QL PHONG TRO\\quanlyphongtro\\gui\\uc\\uc_contract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A4F665BB-6EF3-4F6B-AE26-F5C1D8B4E325}|QuanLyPhongTro\\QuanLyPhongTro.csproj|solutionrelative:quanlyphongtro\\gui\\uc\\uc_contract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BLL_Report.cs",
+              "DocumentMoniker": "C:\\Users\\tuhin\\Desktop\\QL PHONG TRO\\QuanLyPhongTro\\BLL\\BLL_Report.cs",
+              "RelativeDocumentMoniker": "QuanLyPhongTro\\BLL\\BLL_Report.cs",
+              "ToolTip": "C:\\Users\\tuhin\\Desktop\\QL PHONG TRO\\QuanLyPhongTro\\BLL\\BLL_Report.cs",
+              "RelativeToolTip": "QuanLyPhongTro\\BLL\\BLL_Report.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAAAwwFgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T03:27:09.153Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BLL_Bill.cs",
+              "DocumentMoniker": "C:\\Users\\tuhin\\Desktop\\QL PHONG TRO\\QuanLyPhongTro\\BLL\\BLL_Bill.cs",
+              "RelativeDocumentMoniker": "QuanLyPhongTro\\BLL\\BLL_Bill.cs",
+              "ToolTip": "C:\\Users\\tuhin\\Desktop\\QL PHONG TRO\\QuanLyPhongTro\\BLL\\BLL_Bill.cs",
+              "RelativeToolTip": "QuanLyPhongTro\\BLL\\BLL_Bill.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAswGEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T03:27:03.532Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DAL_Bill.cs",
+              "DocumentMoniker": "C:\\Users\\tuhin\\Desktop\\QL PHONG TRO\\QuanLyPhongTro\\DAL\\DAL_Bill.cs",
+              "RelativeDocumentMoniker": "QuanLyPhongTro\\DAL\\DAL_Bill.cs",
+              "ToolTip": "C:\\Users\\tuhin\\Desktop\\QL PHONG TRO\\QuanLyPhongTro\\DAL\\DAL_Bill.cs",
+              "RelativeToolTip": "QuanLyPhongTro\\DAL\\DAL_Bill.cs",
+              "ViewState": "AgIAAIIAAAAAAAAAAAAUwCgAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T03:26:12.314Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DAL_Report.cs",
+              "DocumentMoniker": "C:\\Users\\tuhin\\Desktop\\QL PHONG TRO\\QuanLyPhongTro\\DAL\\DAL_Report.cs",
+              "RelativeDocumentMoniker": "QuanLyPhongTro\\DAL\\DAL_Report.cs",
+              "ToolTip": "C:\\Users\\tuhin\\Desktop\\QL PHONG TRO\\QuanLyPhongTro\\DAL\\DAL_Report.cs",
+              "RelativeToolTip": "QuanLyPhongTro\\DAL\\DAL_Report.cs",
+              "ViewState": "AgIAAHoAAAAAAAAAAAAuwH0AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T03:23:14.142Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FormReport.cs",
+              "DocumentMoniker": "C:\\Users\\tuhin\\Desktop\\QL PHONG TRO\\QuanLyPhongTro\\GUI\\Forms\\FormReport.cs",
+              "RelativeDocumentMoniker": "QuanLyPhongTro\\GUI\\Forms\\FormReport.cs",
+              "ToolTip": "C:\\Users\\tuhin\\Desktop\\QL PHONG TRO\\QuanLyPhongTro\\GUI\\Forms\\FormReport.cs",
+              "RelativeToolTip": "QuanLyPhongTro\\GUI\\Forms\\FormReport.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAUwCcAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T03:22:59.613Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FormReport.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\tuhin\\Desktop\\QL PHONG TRO\\QuanLyPhongTro\\GUI\\Forms\\FormReport.cs",
+              "RelativeDocumentMoniker": "QuanLyPhongTro\\GUI\\Forms\\FormReport.cs",
+              "ToolTip": "C:\\Users\\tuhin\\Desktop\\QL PHONG TRO\\QuanLyPhongTro\\GUI\\Forms\\FormReport.cs [Design]",
+              "RelativeToolTip": "QuanLyPhongTro\\GUI\\Forms\\FormReport.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T03:07:04.822Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UC_Revenue.cs",
+              "DocumentMoniker": "C:\\Users\\tuhin\\Desktop\\QL PHONG TRO\\QuanLyPhongTro\\GUI\\UC\\Report\\UC_Revenue.cs",
+              "RelativeDocumentMoniker": "QuanLyPhongTro\\GUI\\UC\\Report\\UC_Revenue.cs",
+              "ToolTip": "C:\\Users\\tuhin\\Desktop\\QL PHONG TRO\\QuanLyPhongTro\\GUI\\UC\\Report\\UC_Revenue.cs",
+              "RelativeToolTip": "QuanLyPhongTro\\GUI\\UC\\Report\\UC_Revenue.cs",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAcwGQAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T00:58:02.918Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "UC_Revenue.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\tuhin\\Desktop\\QL PHONG TRO\\QuanLyPhongTro\\GUI\\UC\\Report\\UC_Revenue.cs",
+              "RelativeDocumentMoniker": "QuanLyPhongTro\\GUI\\UC\\Report\\UC_Revenue.cs",
+              "ToolTip": "C:\\Users\\tuhin\\Desktop\\WorkSpace\\QuanLyPhongTro\\QuanLyPhongTro\\GUI\\UC\\Report\\UC_Revenue.cs [Design]",
+              "RelativeToolTip": "..\\WorkSpace\\QuanLyPhongTro\\QuanLyPhongTro\\GUI\\UC\\Report\\UC_Revenue.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T00:58:00.577Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Handles.cs",
+              "DocumentMoniker": "C:\\Users\\tuhin\\Desktop\\QL PHONG TRO\\QuanLyPhongTro\\Handle\\Handles.cs",
+              "RelativeDocumentMoniker": "QuanLyPhongTro\\Handle\\Handles.cs",
+              "ToolTip": "C:\\Users\\tuhin\\Desktop\\QL PHONG TRO\\QuanLyPhongTro\\Handle\\Handles.cs",
+              "RelativeToolTip": "QuanLyPhongTro\\Handle\\Handles.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAowEsAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T00:52:00.96Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "UC_Report.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\tuhin\\Desktop\\QL PHONG TRO\\QuanLyPhongTro\\GUI\\UC\\Report\\UC_Report.cs",
+              "RelativeDocumentMoniker": "QuanLyPhongTro\\GUI\\UC\\Report\\UC_Report.cs",
+              "ToolTip": "C:\\Users\\tuhin\\Desktop\\WorkSpace\\QuanLyPhongTro\\QuanLyPhongTro\\GUI\\UC\\Report\\UC_Report.cs [Design]",
+              "RelativeToolTip": "..\\WorkSpace\\QuanLyPhongTro\\QuanLyPhongTro\\GUI\\UC\\Report\\UC_Report.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T00:57:57.85Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UC_Contract.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\tuhin\\Desktop\\QL PHONG TRO\\QuanLyPhongTro\\GUI\\UC\\UC_Contract.cs",
+              "RelativeDocumentMoniker": "QuanLyPhongTro\\GUI\\UC\\UC_Contract.cs",
+              "ToolTip": "C:\\Users\\tuhin\\Desktop\\WorkSpace\\QuanLyPhongTro\\QuanLyPhongTro\\GUI\\UC\\UC_Contract.cs [Design]",
+              "RelativeToolTip": "..\\WorkSpace\\QuanLyPhongTro\\QuanLyPhongTro\\GUI\\UC\\UC_Contract.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T00:57:46.837Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

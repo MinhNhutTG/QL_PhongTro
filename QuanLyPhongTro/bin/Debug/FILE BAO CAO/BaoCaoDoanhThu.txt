@@ -1,0 +1,17 @@
+
+Báo Cáo Doanh Thu 
+Mã hóa đơn : HD293101 | Mã dịch vụ : 47648 | Số phòng: 101 | Ngày Lập Hóa Đơn: 3/29/2025 12:00:00 AM | Tổng tiền : 1294000
+Mã hóa đơn : HD29310179 | Mã dịch vụ : 84023 | Số phòng: 101 | Ngày Lập Hóa Đơn: 3/29/2025 12:00:00 AM | Tổng tiền : 1286000
+Mã hóa đơn : HD293102 | Mã dịch vụ : 65196 | Số phòng: 102 | Ngày Lập Hóa Đơn: 3/29/2025 12:00:00 AM | Tổng tiền : 1594000
+Mã hóa đơn : HD29310244 | Mã dịch vụ : 26787 | Số phòng: 102 | Ngày Lập Hóa Đơn: 3/29/2025 12:00:00 AM | Tổng tiền : 1590000
+Mã hóa đơn : HD293104 | Mã dịch vụ : 77201 | Số phòng: 104 | Ngày Lập Hóa Đơn: 3/29/2025 12:00:00 AM | Tổng tiền : 1594000
+Mã hóa đơn : HD29310479 | Mã dịch vụ : 68574 | Số phòng: 104 | Ngày Lập Hóa Đơn: 3/29/2025 12:00:00 AM | Tổng tiền : 1622000
+Mã hóa đơn : HD293105 | Mã dịch vụ : 87016 | Số phòng: 105 | Ngày Lập Hóa Đơn: 3/29/2025 12:00:00 AM | Tổng tiền : 1594000
+Mã hóa đơn : HD2931058 | Mã dịch vụ : 23343 | Số phòng: 105 | Ngày Lập Hóa Đơn: 3/29/2025 12:00:00 AM | Tổng tiền : 1634000
+Tổng Doanh Thu: 12208000
+Báo Cáo Doanh Thu 
+Mã hóa đơn : HD29310179 | Mã dịch vụ : 84023 | Số phòng: 101 | Ngày Lập Hóa Đơn: 2/28/2025 12:00:00 AM | Tổng tiền : 1286000
+Mã hóa đơn : HD293102 | Mã dịch vụ : 65196 | Số phòng: 102 | Ngày Lập Hóa Đơn: 2/28/2025 12:00:00 AM | Tổng tiền : 1594000
+Mã hóa đơn : HD29310244 | Mã dịch vụ : 26787 | Số phòng: 102 | Ngày Lập Hóa Đơn: 2/28/2025 12:00:00 AM | Tổng tiền : 1590000
+Mã hóa đơn : HD293104 | Mã dịch vụ : 77201 | Số phòng: 104 | Ngày Lập Hóa Đơn: 2/28/2025 12:00:00 AM | Tổng tiền : 1594000
+Tổng Doanh Thu: 6064000
