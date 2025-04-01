@@ -159,7 +159,6 @@ namespace QuanLyPhongTro.GUI.UC.Guest
                     int idGuest = Convert.ToInt32(lsvGuest.SelectedItems[0].Text);
                 
                   
-                  
                     if (bllGuest.RemoveGuest(idGuest))
                     {
                         Notify.Notifi.Show("Xóa thành công", Notifi.typeNotify.success);
