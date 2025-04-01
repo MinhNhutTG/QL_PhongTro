@@ -108,9 +108,7 @@ namespace QuanLyPhongTro.DAL
         } // Lay ds loai phong
 
     
-     
-       
-      
+
 
         // ->>>>>>>>>> CRUD <<<<<<<<-
         public bool UpdateRoom(Room r)
