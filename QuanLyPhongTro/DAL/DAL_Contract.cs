@@ -112,17 +112,16 @@ namespace QuanLyPhongTro.DAL
         }
         public bool RemoveContract(string idcontract) 
         {
-            string sql = string.Format("UPDATE KhachThue " +
-                " SET KhachThue.TrangThai = N'Đã Kết Thúc Hợp Đồng'" +
-                " WHERE KhachThue.MaKhach IN ( SELECT DISTINCT MaKhach FROM ChiTietHopDong WHERE IDHopDong = '{0}');" +
-                " UPDATE Phong SET TrangThai = N'Trống' WHERE Phong.SoPhong IN (SELECT DISTINCT HopDongThue.SoPhong FROM HopDongThue where HopDongThue.ID = '{0}')" +
-                " DELETE ChiTietHopDong where IDHopDong = '{0}'" +
-                " DELETE HopDongThue where ID = '{0}'", idcontract);
-            string sqlDeleteRoomServices = string.Format("DELETE DichVuPhong WHERE DichVuPhong.MaHopDong = '{0}'",idcontract);
-            List<int> listIDGuest = getlistIdGuestByIDContract(idcontract);
-            if (db.ExecuteNonQuery(sql) > 0 && db.ExecuteNonQuery(sqlDeleteRoomServices) >= 0)
+            string sql = string.Format("DELETE HOADON WHERE HoaDon.IDDichVu IN (SELECT DichVuPhong.ID FROM DichVuPhong WHERE DichVuPhong.MaHopDong = '{0}') " +
+                " DELETE DichVuPhong WHERE DichVuPhong.MaHopDong = '{0}'" +
+                " UPDATE KhachThue SET TrangThai = N'Đã Kết Thúc Hợp Đồng' WHERE KhachThue.MaKhach IN (SELECT ChiTietHopDong.MaKhach FROM ChiTietHopDong WHERE ChiTietHopDong.IDHopDong = '{0}')" +
+                " UPDATE Phong SET TrangThai = N'Trống' WHERE Phong.SoPhong IN (SELECT HopDongThue.SoPhong FROM HopDongThue WHERE HopDongThue.ID = '{0}')" +
+                " DELETE ChiTietHopDong WHERE ChiTietHopDong.IDHopDong = '{0}'" +
+                " DELETE HopDongThue WHERE HopDongThue.ID = '{0}'", idcontract);
+         
+            if (db.ExecuteNonQuery(sql) > 0 )
             {
-                UpdateStatusListGuest(listIDGuest);
+               
                 return true;
             }
             return false;

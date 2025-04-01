@@ -30,13 +30,7 @@ namespace QuanLyPhongTro.Handle
                 return false;
             }
         }
-<<<<<<< HEAD
 
-
-=======
-    
-      
->>>>>>> 6c54cd9786a78dcf1a8312d4adc94c76ff3296c8
         public static void ExportTxt(string content)
         {
             try
