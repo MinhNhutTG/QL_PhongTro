@@ -6,12 +6,14 @@ using System.Text;
 using System.Threading.Tasks;
 using QuanLyPhongTro.DAL;
 using QuanLyPhongTro.GUI.Custom;
+using System.Windows.Forms;
 
 namespace QuanLyPhongTro.BLL
 {
     internal class BLL_Guest
     {
         DAL_Guest dal = new DAL_Guest();
+        DAL_Contract dalcontract = new DAL_Contract();
 
         // << GET >> 
         public List<Guest> getListGuest()
@@ -61,6 +63,7 @@ namespace QuanLyPhongTro.BLL
 
         public bool Update(Guest g)
         {
+            
             if (string.IsNullOrEmpty(g.MaKhach.ToString()))
             {
                 throw new BusinessException("Mã khách không được để trống");
@@ -89,6 +92,7 @@ namespace QuanLyPhongTro.BLL
             {
                 throw new BusinessException("Trạng thái khách không được để trống");
             }
+           
             return dal.Update(g);
         }
 

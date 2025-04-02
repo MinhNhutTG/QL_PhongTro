@@ -109,26 +109,12 @@ namespace QuanLyPhongTro.DAL
         }
         public bool RemoveGuest(int idGuest)
         {
-            string idContract = dalcontract.getIdContractByIDGuest(idGuest);
-            string sqlRemoveInDetailContract = string.Format("DELETE FROM ChiTietHopDong WHERE  MaKhach = {0};",  idGuest);
-            string sqlUpdateContractStatus = string.Format("update HopDongThue set TrangThai = N'Đã Hủy' where HopDongThue.ID = '{0}' and  NOT EXISTS (SELECT 1 FROM ChiTietHopDong WHERE IDHopDong = '{0}');", idContract);
-            string sqlRemoveGuest = string.Format("DELETE FROM KhachThue WHERE MaKhach = {0}", idGuest);
-            string sqlUpdateStatusRoom = string.Format("UPDATE Phong SET TrangThai = N'Trống' WHERE Phong.SoPhong IN (SELECT HopDongThue.SoPhong From HopDongThue where TrangThai = N'Đã Hủy' AND ID = '{0}')", idContract);
-            if (ExistGuestInDetailContract(idGuest) == true)
+
+            string sqlremove = string.Format("delete ChiTietHopDong where ChiTietHopDong.MaKhach = '{0}' " +
+                "delete KhachThue where KhachThue.MaKhach = {0} ", idGuest);
+            if (db.ExecuteNonQuery(sqlremove) > 0)
             {
-                
-                if (db.ExecuteNonQuery(sqlRemoveInDetailContract) > 0 && db.ExecuteNonQuery(sqlUpdateContractStatus) >= 0 && db.ExecuteNonQuery(sqlRemoveGuest) >= 0 && db.ExecuteNonQuery(sqlUpdateStatusRoom) >= 0)
-                {
-                    return true;
-                }
-            }
-            else
-            {
-              
-                if (db.ExecuteNonQuery(sqlRemoveGuest) > 0 )
-                {
-                    return true;
-                }
+                return true;
             }
             return false;
 

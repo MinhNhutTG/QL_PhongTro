@@ -43,6 +43,10 @@ namespace QuanLyPhongTro.BLL
             
             return dal.CheckCancelContract(mahd);
         }
+        public bool CheckContractIdGuestRemove(int idGuest)
+        {
+            return dal.CheckContractIdGuestRemove(idGuest);
+        }
 
         // CRUD -- 
         public bool AddContract(Contract contract)

@@ -95,12 +95,18 @@ namespace QuanLyPhongTro.GUI.UC.Guest
                     txtQueQuan.Text = g.QueQuan.ToString();
                     cbbTrangThai.Text = g.TrangThai.ToString();
                     txtEmail.Text = g.Email.ToString();
-
+                    lsvDetailGuest.Items.Clear();
                     if (!string.IsNullOrEmpty(contract.Id))
                     {
                         lblMaHopDong.Text = contract.Id.ToString();
                         lblSoPhong.Text = contract.SoPhong.ToString();
                         ShowDetailContract(contract.Id);
+                    }
+                    else
+                    {
+                        lblMaHopDong.Text = "";
+                        lblSoPhong.Text = "";
+                      
                     }
                     txtMaKhach.Enabled = false;
 
@@ -158,18 +164,21 @@ namespace QuanLyPhongTro.GUI.UC.Guest
                 {
                     int idGuest = Convert.ToInt32(lsvGuest.SelectedItems[0].Text);
                 
-                  
-                    if (bllGuest.RemoveGuest(idGuest))
+                    if (bllContract.CheckContractIdGuestRemove(idGuest))
                     {
-                        Notify.Notifi.Show("Xóa thành công", Notifi.typeNotify.success);
-                        LoadGuests();
-                        Reload();
-                        
+                        Notify.Notifi.Show("Khách thuê chưa kết thúc hợp đồng không thể xóa", Notifi.typeNotify.warning);
                     }
                     else
                     {
-                        Notify.Notifi.Show("Xóa không thành công", Notifi.typeNotify.warning);
+                        if (bllGuest.RemoveGuest(idGuest))
+                        {
+                            Notify.Notifi.Show("Xóa thành công", Notifi.typeNotify.success);
+                            LoadGuests();
+                            Reload();
+                        }
                     }
+                   
+                    
                 }
             }
             catch (BusinessException ex)
@@ -185,7 +194,7 @@ namespace QuanLyPhongTro.GUI.UC.Guest
 
         private void ShowDetailContract(string idhd)
         {
-            lsvDetailGuest.Items.Clear();
+           
             List<DetailContract> detailContracts = bllContract.GetDetailContractList(idhd);
             foreach (DetailContract dtctr in detailContracts)
             {
@@ -278,6 +287,9 @@ namespace QuanLyPhongTro.GUI.UC.Guest
             }
         }
 
-        
+        private void cbbTrangThai_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

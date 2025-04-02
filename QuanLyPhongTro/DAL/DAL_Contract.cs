@@ -153,6 +153,14 @@ namespace QuanLyPhongTro.DAL
             if (dt.Rows.Count > 0) { return true; }
             return false;
         }
+        public bool CheckContractIdGuestRemove(int idGuest)
+        {
+            string sql = string.Format("select * from HopDongThue where HopDongThue.ID in (select ChiTietHopDong.IDHopDong from ChiTietHopDong" +
+                " where ChiTietHopDong.MaKhach = {0} ) and HopDongThue.TrangThai = N'Đang Hiệu Lực'",idGuest);
+            DataTable dt = db.Execute(sql);
+            if (dt.Rows.Count > 0) { return true; }
+            return false;
+        }
 
         // FILL AND FIND
         public List<DTO.Contract> FillContractStatus(string status)
