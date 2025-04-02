@@ -75,8 +75,8 @@ namespace QuanLyPhongTro.DAL
         public bool CancelContract(string id)
         {
            
-            string sql = string.Format("UPDATE HopDongThue SET TrangThai = N'Đã Hủy' WHERE ID = '{0}' " +
-                " UPDATE Phong SET TrangThai = N'Trống' WHERE Phong.SoPhong IN (SELECT HopDongThue.SoPhong FROM HopDongThue WHERE HopDongThue.ID = '{0}')" +
+            string sql = string.Format(" UPDATE Phong SET TrangThai = N'Trống' WHERE Phong.SoPhong IN (SELECT HopDongThue.SoPhong FROM HopDongThue WHERE HopDongThue.ID = '{0}')" +
+                " UPDATE HopDongThue SET TrangThai = N'Đã Hủy' WHERE ID = '{0}' " +
                 "  UPDATE KhachThue SET TrangThai = N'Đã Kết Thúc Hợp Đồng' WHERE KhachThue.MaKhach IN (SELECT ChiTietHopDong.MaKhach FROM ChiTietHopDong WHERE ChiTietHopDong.IDHopDong = '{0}')", id);
             
             
@@ -99,17 +99,7 @@ namespace QuanLyPhongTro.DAL
                 db.ExecuteNonQuery(sqlUpdateStatusWhenUseContracts);
             }
         }
-        private void UpdateStatusListGuest(List<int> listidGuest)
-        {
-
-          
-            foreach (int idGuest in listidGuest)
-            {
-                string sqlUpdateStatusWhenUseContracts = string.Format("UPDATE KhachThue SET TrangThai = N'Đang Thuê' WHERE KhachThue.MaKhach IN (SELECT ChiTietHopDong.MaKhach FROM ChiTietHopDong WHERE ChiTietHopDong.IDHopDong IN ( " +
-                    "SELECT HopDongThue.ID FROM HopDongThue WHERE HopDongThue.TrangThai != N'Đã Hủy') and ChiTietHopDong.MaKhach = {0} )", idGuest);
-                db.ExecuteNonQuery(sqlUpdateStatusWhenUseContracts);
-            }
-        }
+       
         public bool RemoveContract(string idcontract) 
         {
             string sql = string.Format("DELETE HOADON WHERE HoaDon.IDDichVu IN (SELECT DichVuPhong.ID FROM DichVuPhong WHERE DichVuPhong.MaHopDong = '{0}') " +
@@ -149,7 +139,8 @@ namespace QuanLyPhongTro.DAL
         public bool CheckCancelContract(string mahd)
         {
             string sql = string.Format("select * from HopDongThue where HopDongThue.TrangThai = N'Đã Hủy' and HopDongThue.ID = '{0}'", mahd);
-             DataTable dt = db.Execute(sql);
+           
+            DataTable dt = db.Execute(sql);
             if (dt.Rows.Count > 0) { return true; }
             return false;
         }

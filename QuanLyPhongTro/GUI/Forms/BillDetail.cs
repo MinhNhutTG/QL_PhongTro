@@ -13,6 +13,7 @@ using System.Threading.Tasks;
 using System.Net.Mail;
 using System.Windows.Forms;
 using System.Net;
+using QuanLyPhongTro.Handle;
 
 namespace QuanLyPhongTro.GUI.Forms
 {
@@ -131,22 +132,7 @@ namespace QuanLyPhongTro.GUI.Forms
                     string mailTo = bllguest.getEmail(Convert.ToInt32(bill.SoPhong));
                     if (mailTo != null)
                     {
-                        SmtpClient client = new SmtpClient("smtp.gmail.com", 587)
-                        {
-                            Credentials = new NetworkCredential("vietnamboardinghouse@gmail.com", "ziau vrck nvyt viem"),
-                            EnableSsl = true
-                        };
-
-
-                        MailMessage mailMessage = new MailMessage
-                        {
-                            From = new MailAddress("vietnamboardinghouse@gmail.com"),
-                            Subject = "Hóa Đơn Boarding House]",
-                            Body = htmlContent,
-                            IsBodyHtml = true
-                        };
-                        mailMessage.To.Add(mailTo);
-                        client.Send(mailMessage);
+                        Handles.SendEmail(htmlContent, mailTo);
 
                     }
                     else

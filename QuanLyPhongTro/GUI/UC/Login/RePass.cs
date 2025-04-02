@@ -18,8 +18,8 @@ namespace QuanLyPhongTro.GUI.UC.Login
     public partial class RePass : UserControl
     {
         BLL_Login login = new BLL_Login();
-       
-        string numberRandom = String.Empty;
+
+
         public RePass()
         {
             InitializeComponent();
@@ -33,34 +33,7 @@ namespace QuanLyPhongTro.GUI.UC.Login
             this.Controls.Add(loginUC);
         }
 
-        public string randomCode()
-        {
-            Random rnd = new Random();
-            return   rnd.Next(1000, 9999).ToString();
-            
-        }
-        public void SendCode()
-        {
-            string code = randomCode();
-            string mailTo = txtMail.Text;
-            SmtpClient client = new SmtpClient("smtp.gmail.com", 587)
-            {
-                Credentials = new NetworkCredential("vietnamboardinghouse@gmail.com", "ziau vrck nvyt viem"),
-                EnableSsl = true
-            };
-
-
-            MailMessage mailMessage = new MailMessage
-            {
-                From = new MailAddress("vietnamboardinghouse@gmail.com"),
-                Subject = "Mã xác thực của bạn - Boarding House]",
-                Body = "Mã xác nhận của bạn là : " + code,
-                IsBodyHtml = true
-            };
-            mailMessage.To.Add(mailTo);
-            client.Send(mailMessage);
-            login.RePass(code);
-        }
+       
 
         private void RePass_Load(object sender, EventArgs e)
         {
@@ -76,7 +49,9 @@ namespace QuanLyPhongTro.GUI.UC.Login
                 if (login.checkMailUser(txtMail.Text))
                 {
                     Notifi.Show("Mã xác nhận đang được gửi", Notifi.typeNotify.success);
-                    SendCode();
+                    string mailTo = txtMail.Text;
+                    Handles.SendCode(mailTo);
+                 
                 }
                 else
                 {
@@ -88,9 +63,6 @@ namespace QuanLyPhongTro.GUI.UC.Login
             {
                 Notifi.Show("Email này không hợp lệ", Notifi.typeNotify.error);
             }
-
-
-
         }
 
         private void btnLogin_Click(object sender, EventArgs e)
@@ -103,7 +75,11 @@ namespace QuanLyPhongTro.GUI.UC.Login
                 Forms.Main frm = new Forms.Main();
                 frm.ShowDialog();
             }
-            Notifi.Show("Đăng nhập không thành công", Notifi.typeNotify.error);
+            else
+            {
+                Notifi.Show("Đăng nhập không thành công", Notifi.typeNotify.error);
+            }
+           
         }
     }
 }

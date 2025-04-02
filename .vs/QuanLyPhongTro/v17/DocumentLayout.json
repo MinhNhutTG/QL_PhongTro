@@ -3,28 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\tuhin\\Documents\\DoAn\\QL_PhongTro\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A4F665BB-6EF3-4F6B-AE26-F5C1D8B4E325}|QuanLyPhongTro\\QuanLyPhongTro.csproj|c:\\users\\tuhin\\documents\\doan\\ql_phongtro\\quanlyphongtro\\dal\\dal_guest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A4F665BB-6EF3-4F6B-AE26-F5C1D8B4E325}|QuanLyPhongTro\\QuanLyPhongTro.csproj|solutionrelative:quanlyphongtro\\dal\\dal_guest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A4F665BB-6EF3-4F6B-AE26-F5C1D8B4E325}|QuanLyPhongTro\\QuanLyPhongTro.csproj|c:\\users\\tuhin\\documents\\doan\\ql_phongtro\\quanlyphongtro\\gui\\forms\\billdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4F665BB-6EF3-4F6B-AE26-F5C1D8B4E325}|QuanLyPhongTro\\QuanLyPhongTro.csproj|solutionrelative:quanlyphongtro\\gui\\forms\\billdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A4F665BB-6EF3-4F6B-AE26-F5C1D8B4E325}|QuanLyPhongTro\\QuanLyPhongTro.csproj|c:\\users\\tuhin\\documents\\doan\\ql_phongtro\\quanlyphongtro\\gui\\uc\\uc_guest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A4F665BB-6EF3-4F6B-AE26-F5C1D8B4E325}|QuanLyPhongTro\\QuanLyPhongTro.csproj|solutionrelative:quanlyphongtro\\gui\\uc\\uc_guest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A4F665BB-6EF3-4F6B-AE26-F5C1D8B4E325}|QuanLyPhongTro\\QuanLyPhongTro.csproj|c:\\users\\tuhin\\documents\\doan\\ql_phongtro\\quanlyphongtro\\handle\\handles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4F665BB-6EF3-4F6B-AE26-F5C1D8B4E325}|QuanLyPhongTro\\QuanLyPhongTro.csproj|solutionrelative:quanlyphongtro\\handle\\handles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A4F665BB-6EF3-4F6B-AE26-F5C1D8B4E325}|QuanLyPhongTro\\QuanLyPhongTro.csproj|c:\\users\\tuhin\\documents\\doan\\ql_phongtro\\quanlyphongtro\\gui\\uc\\uc_guest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{A4F665BB-6EF3-4F6B-AE26-F5C1D8B4E325}|QuanLyPhongTro\\QuanLyPhongTro.csproj|solutionrelative:quanlyphongtro\\gui\\uc\\uc_guest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A4F665BB-6EF3-4F6B-AE26-F5C1D8B4E325}|QuanLyPhongTro\\QuanLyPhongTro.csproj|c:\\users\\tuhin\\documents\\doan\\ql_phongtro\\quanlyphongtro\\bll\\bll_guest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A4F665BB-6EF3-4F6B-AE26-F5C1D8B4E325}|QuanLyPhongTro\\QuanLyPhongTro.csproj|solutionrelative:quanlyphongtro\\bll\\bll_guest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A4F665BB-6EF3-4F6B-AE26-F5C1D8B4E325}|QuanLyPhongTro\\QuanLyPhongTro.csproj|c:\\users\\tuhin\\documents\\doan\\ql_phongtro\\quanlyphongtro\\bll\\bll_contract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A4F665BB-6EF3-4F6B-AE26-F5C1D8B4E325}|QuanLyPhongTro\\QuanLyPhongTro.csproj|solutionrelative:quanlyphongtro\\bll\\bll_contract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A4F665BB-6EF3-4F6B-AE26-F5C1D8B4E325}|QuanLyPhongTro\\QuanLyPhongTro.csproj|C:\\Users\\tuhin\\Documents\\DoAn\\QL_PhongTro\\quanlyphongtro\\dal\\dal_contract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A4F665BB-6EF3-4F6B-AE26-F5C1D8B4E325}|QuanLyPhongTro\\QuanLyPhongTro.csproj|solutionrelative:quanlyphongtro\\dal\\dal_contract.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A4F665BB-6EF3-4F6B-AE26-F5C1D8B4E325}|QuanLyPhongTro\\QuanLyPhongTro.csproj|c:\\users\\tuhin\\documents\\doan\\ql_phongtro\\quanlyphongtro\\gui\\forms\\billdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{A4F665BB-6EF3-4F6B-AE26-F5C1D8B4E325}|QuanLyPhongTro\\QuanLyPhongTro.csproj|solutionrelative:quanlyphongtro\\gui\\forms\\billdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,22 +22,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 4,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "DAL_Contract.cs",
-              "DocumentMoniker": "C:\\Users\\tuhin\\Documents\\DoAn\\QL_PhongTro\\QuanLyPhongTro\\DAL\\DAL_Contract.cs",
-              "RelativeDocumentMoniker": "QuanLyPhongTro\\DAL\\DAL_Contract.cs",
-              "ToolTip": "C:\\Users\\tuhin\\Documents\\DoAn\\QL_PhongTro\\QuanLyPhongTro\\DAL\\DAL_Contract.cs",
-              "RelativeToolTip": "QuanLyPhongTro\\DAL\\DAL_Contract.cs",
-              "ViewState": "AgIAAIgAAAAAAAAAAADwv5sAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-01T02:36:03.317Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
@@ -68,66 +42,40 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "BLL_Contract.cs",
-              "DocumentMoniker": "C:\\Users\\tuhin\\Documents\\DoAn\\QL_PhongTro\\QuanLyPhongTro\\BLL\\BLL_Contract.cs",
-              "RelativeDocumentMoniker": "QuanLyPhongTro\\BLL\\BLL_Contract.cs",
-              "ToolTip": "C:\\Users\\tuhin\\Documents\\DoAn\\QL_PhongTro\\QuanLyPhongTro\\BLL\\BLL_Contract.cs",
-              "RelativeToolTip": "QuanLyPhongTro\\BLL\\BLL_Contract.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAgwCoAAAAMAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "BillDetail.cs",
+              "DocumentMoniker": "C:\\Users\\tuhin\\Documents\\DoAn\\QL_PhongTro\\QuanLyPhongTro\\GUI\\Forms\\BillDetail.cs",
+              "RelativeDocumentMoniker": "QuanLyPhongTro\\GUI\\Forms\\BillDetail.cs",
+              "ToolTip": "C:\\Users\\tuhin\\Documents\\DoAn\\QL_PhongTro\\QuanLyPhongTro\\GUI\\Forms\\BillDetail.cs",
+              "RelativeToolTip": "QuanLyPhongTro\\GUI\\Forms\\BillDetail.cs",
+              "ViewState": "AgIAAHgAAAAAAAAAAAAawJUAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-02T03:10:28.168Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UC_Guest.cs",
-              "DocumentMoniker": "C:\\Users\\tuhin\\Documents\\DoAn\\QL_PhongTro\\QuanLyPhongTro\\GUI\\UC\\UC_Guest.cs",
-              "RelativeDocumentMoniker": "QuanLyPhongTro\\GUI\\UC\\UC_Guest.cs",
-              "ToolTip": "C:\\Users\\tuhin\\Documents\\DoAn\\QL_PhongTro\\QuanLyPhongTro\\GUI\\UC\\UC_Guest.cs",
-              "RelativeToolTip": "QuanLyPhongTro\\GUI\\UC\\UC_Guest.cs",
-              "ViewState": "AgIAAIwAAAAAAAAAAAAwwJ4AAABAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-02T03:07:19.642Z",
+              "WhenOpened": "2025-04-02T05:09:22.894Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "UC_Guest.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\tuhin\\Documents\\DoAn\\QL_PhongTro\\QuanLyPhongTro\\GUI\\UC\\UC_Guest.cs",
-              "RelativeDocumentMoniker": "QuanLyPhongTro\\GUI\\UC\\UC_Guest.cs",
-              "ToolTip": "C:\\Users\\tuhin\\Documents\\DoAn\\QL_PhongTro\\QuanLyPhongTro\\GUI\\UC\\UC_Guest.cs [Design]",
-              "RelativeToolTip": "QuanLyPhongTro\\GUI\\UC\\UC_Guest.cs [Design]",
+              "Title": "BillDetail.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\tuhin\\Documents\\DoAn\\QL_PhongTro\\QuanLyPhongTro\\GUI\\Forms\\BillDetail.cs",
+              "RelativeDocumentMoniker": "QuanLyPhongTro\\GUI\\Forms\\BillDetail.cs",
+              "ToolTip": "C:\\Users\\tuhin\\Documents\\DoAn\\QL_PhongTro\\QuanLyPhongTro\\GUI\\Forms\\BillDetail.cs [Design]",
+              "RelativeToolTip": "QuanLyPhongTro\\GUI\\Forms\\BillDetail.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-02T03:07:17.9Z",
+              "WhenOpened": "2025-04-02T05:09:21.341Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "BLL_Guest.cs",
-              "DocumentMoniker": "C:\\Users\\tuhin\\Documents\\DoAn\\QL_PhongTro\\QuanLyPhongTro\\BLL\\BLL_Guest.cs",
-              "RelativeDocumentMoniker": "QuanLyPhongTro\\BLL\\BLL_Guest.cs",
-              "ToolTip": "C:\\Users\\tuhin\\Documents\\DoAn\\QL_PhongTro\\QuanLyPhongTro\\BLL\\BLL_Guest.cs",
-              "RelativeToolTip": "QuanLyPhongTro\\BLL\\BLL_Guest.cs",
-              "ViewState": "AgIAAD4AAAAAAAAAAAAkwEIAAAA7AAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Handles.cs",
+              "DocumentMoniker": "C:\\Users\\tuhin\\Documents\\DoAn\\QL_PhongTro\\QuanLyPhongTro\\Handle\\Handles.cs",
+              "RelativeDocumentMoniker": "QuanLyPhongTro\\Handle\\Handles.cs",
+              "ToolTip": "C:\\Users\\tuhin\\Documents\\DoAn\\QL_PhongTro\\QuanLyPhongTro\\Handle\\Handles.cs",
+              "RelativeToolTip": "QuanLyPhongTro\\Handle\\Handles.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAIA0wD4AAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-02T03:06:05.917Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "DAL_Guest.cs",
-              "DocumentMoniker": "C:\\Users\\tuhin\\Documents\\DoAn\\QL_PhongTro\\QuanLyPhongTro\\DAL\\DAL_Guest.cs",
-              "RelativeDocumentMoniker": "QuanLyPhongTro\\DAL\\DAL_Guest.cs",
-              "ToolTip": "C:\\Users\\tuhin\\Documents\\DoAn\\QL_PhongTro\\QuanLyPhongTro\\DAL\\DAL_Guest.cs",
-              "RelativeToolTip": "QuanLyPhongTro\\DAL\\DAL_Guest.cs",
-              "ViewState": "AgIAAKIAAAAAAAAAAAArwLwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-01T13:56:45.79Z",
+              "WhenOpened": "2025-04-02T04:54:30.619Z",
               "EditorCaption": ""
             }
           ]

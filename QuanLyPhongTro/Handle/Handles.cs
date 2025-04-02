@@ -7,11 +7,64 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Net;
+using System.Net.Mail;
+using QuanLyPhongTro.BLL;
+using System.Net.Http;
 
 namespace QuanLyPhongTro.Handle
 {
     internal class Handles
     {
+        string numberRandom = String.Empty;
+        static BLL_Login  login = new BLL_Login();
+        public static string randomCode()
+        {
+            Random rnd = new Random();
+            return rnd.Next(1000, 9999).ToString();
+
+        }
+        public static void SendCode(string mailTo)
+        {
+            string code = randomCode();
+
+            SmtpClient client = new SmtpClient("smtp.gmail.com", 587)
+            {
+                Credentials = new NetworkCredential("vietnamboardinghouse@gmail.com", "ziau vrck nvyt viem"),
+                EnableSsl = true
+            };
+
+
+            MailMessage mailMessage = new MailMessage
+            {
+                From = new MailAddress("vietnamboardinghouse@gmail.com"),
+                Subject = "Mã xác thực của bạn - Boarding House]",
+                Body = "Mã xác nhận của bạn là : " + code,
+                IsBodyHtml = true
+            };
+            mailMessage.To.Add(mailTo);
+            client.Send(mailMessage);
+            login.RePass(code);
+        }
+        public static void SendEmail(string htmlContent , string mailto)
+        {
+            SmtpClient client = new SmtpClient("smtp.gmail.com", 587)
+            {
+                Credentials = new NetworkCredential("vietnamboardinghouse@gmail.com", "ziau vrck nvyt viem"),
+                EnableSsl = true
+            };
+
+
+            MailMessage mailMessage = new MailMessage
+            {
+                From = new MailAddress("vietnamboardinghouse@gmail.com"),
+                Subject = "Hóa Đơn Boarding House]",
+                Body = htmlContent,
+                IsBodyHtml = true
+            };
+            mailMessage.To.Add(mailto);
+            client.Send(mailMessage);
+        }
         public static bool IsValidEmail(string email)
         {
             var trimmedEmail = email.Trim();
@@ -30,6 +83,7 @@ namespace QuanLyPhongTro.Handle
                 return false;
             }
         }
+
 
         public static void ExportTxt(string content)
         {
