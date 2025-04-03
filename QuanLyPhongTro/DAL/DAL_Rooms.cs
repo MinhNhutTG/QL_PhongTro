@@ -131,20 +131,18 @@ namespace QuanLyPhongTro.DAL
         }
         public bool RemoveRoom(string sophong)
         {
-            string sql = string.Format("UPDATE KhachThue SET KhachThue.TrangThai = N'Đã Kết Thúc Hợp Đồng' WHERE KhachThue.MaKhach IN (SELECT ChiTietHopDong.MaKhach FROM ChiTietHopDong WHERE ChiTietHopDong.IDHopDong IN (SELECT ID  FROM HopDongThue WHERE HopDongThue.SoPhong = '{0}' )) " +
-                " DELETE HoaDon WHERE HoaDon.SoPhong =  '{0}' " +
-                " DELETE DichVuPhong WHERE DichVuPhong.SoPhong =  '{0}'  " +
-                " DELETE ChiTietHopDong WHERE ChiTietHopDong.IDHopDong IN(SELECT HopDongThue.ID FROM HopDongThue WHERE HopDongThue.SoPhong = '{0}' )" +
-                " DELETE HopDongThue WHERE HopDongThue.SoPhong =  '{0}'  " +
-                " DELETE Phong WHERE Phong.SoPhong =  '{0}'  " +
-                " DELETE Phong WHERE Phong.SoPhong =  '{0}'  ", sophong);
+            string sql = string.Format("  delete HoaDon where HoaDon.SoPhong = '{0}' " +
+                "  delete DichVuPhong where DichVuPhong.SoPhong = '{0}'" +
+                "  update KhachThue set TrangThai = N'Đã Kết Thúc Hợp Đồng' where MaKhach in (Select ChiTietHopDong.MaKhach from ChiTietHopDong where ChiTietHopDong.IDHopDong in (select HopDongThue.ID from HopDongThue where SoPhong = '{0}'))" +
+                "  delete ChiTietHopDong where ChiTietHopDong.IDHopDong in (select HopDongThue.ID from HopDongThue where SoPhong = '{0}') " +
+                " delete HopDongThue where HopDongThue.SoPhong = '{0}'  " +
+                " delete Phong where Phong.SoPhong = '{0}'  ", sophong);
             if (db.ExecuteNonQuery(sql) > 0)
             {
                 return true;
             }
             return false;
         }
-
         public bool AddTypeRoom(string maLoai, string tenLoai, string gia)
         {
             string sql = string.Format("insert into LoaiPhong  values ('{0}',N'{1}',{2})", maLoai, tenLoai, gia);
