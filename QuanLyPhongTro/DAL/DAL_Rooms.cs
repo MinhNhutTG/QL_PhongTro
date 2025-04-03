@@ -194,11 +194,21 @@ namespace QuanLyPhongTro.DAL
             return false;
         }  // ktra su ton tai cua loai phong
 
-      
-       
+        public bool ExistRoomInContract(string room)
+        {
+            string sql = string.Format("select *  from Phong where SoPhong in (select HopDongThue.SoPhong from HopDongThue where HopDongThue.TrangThai = N'Đang Hiệu Lực' and HopDongThue.SoPhong = '{0}') ", room);
+            DataTable dt = db.Execute(sql);
+            if (dt.Rows.Count > 0)
+            {
+                return true;
+            }
+            return false;
+        }
 
 
-      
+
+
+
 
         ///// ->>>>> FILL <<<<<<-
         public List<Room> fillerTypeRoom(string maLoai)

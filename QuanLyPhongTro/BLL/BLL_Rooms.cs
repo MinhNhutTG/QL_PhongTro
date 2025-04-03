@@ -139,5 +139,10 @@ namespace QuanLyPhongTro.BLL
         {
             return dalroom.FindRoomByID(id);
         }
+        public bool ExistRoomInContract(string room)
+        {
+
+            return dalroom.ExistRoomInContract(room);
+        }
     }
 }

@@ -131,23 +131,33 @@ namespace QuanLyPhongTro.GUI.UC.Room
                 if (lsvRoom.SelectedItems.Count == 1)
                 {
                     string id = lsvRoom.SelectedItems[0].Text;
-                 
-                    DialogResult dg = Notify.Message.Show("Nếu xóa phòng sẽ xóa toàn bộ thông tin liên quan đến phòng, bạn có chắc xóa không ?");
-                    if (dg == DialogResult.Yes)
+                    if (!bllRoom.ExistRoomInContract(id))
                     {
-                        if (bllRoom.removeRoom(id))
+
+                        DialogResult dg = Notify.Message.Show("Nếu xóa phòng sẽ xóa toàn bộ thông tin liên quan đến phòng, bạn có chắc xóa không ?");
+                        if (dg == DialogResult.Yes)
                         {
-                            loadListRoom(bllRoom.getlistRoom());
-                            Notifi.Show("Xóa phòng thành công", Notifi.typeNotify.success);
+                            if (bllRoom.removeRoom(id))
+                            {
+                                loadListRoom(bllRoom.getlistRoom());
+                                Notifi.Show("Xóa phòng thành công", Notifi.typeNotify.success);
+                            }
                         }
                     }
+                    else
+                    {
+                        Notifi.Show("Phòng đang có hợp đồng không thể tự ý xóa", Notifi.typeNotify.warning);
+                    }
+
+
                 }
                 else
                 {
                     Notifi.Show("Bạn cần phải chọn phòng cần xóa", Notifi.typeNotify.error);
                 }
             }
-            catch (BusinessException ex) {
+            catch (BusinessException ex)
+            {
                 Notifi.Show("Lỗi hệ thống: " + ex.Message, Notifi.typeNotify.warning);
             }
             catch (Exception ex)

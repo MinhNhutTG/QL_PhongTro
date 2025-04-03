@@ -40,18 +40,19 @@ namespace QuanLyPhongTro.GUI.Forms
         private void LoadInfor(int soPhong)
         {
             DTO.Room room = bllRoom.FindRoomByID(soPhong);
-            if (room != null) { 
+            if (room != null)
+            {
                 txtIDRoom.Text = room.SoPhong.ToString();
                 cbbTypeRoom.Text = room.TenLoai;
                 if (room.TrangThai == "Trống")
                 {
                     rdbStatus1.Checked = true;
                 }
-                else if (room.TrangThai == "Đang thuê")
+                else if (room.TrangThai == "Đang Thuê")
                 {
                     rdbStatus2.Checked = true;
                 }
-                else if (room.TrangThai == "Đang sửa chữa")
+                else if (room.TrangThai == "Đang Sửa Chữa")
                 {
                     rdbStatus3.Checked = true;
                 }
@@ -87,24 +88,24 @@ namespace QuanLyPhongTro.GUI.Forms
         {
             DTO.Room room = new DTO.Room();
             room.SoPhong = txtIDRoom.Text;
-           
+
             room.MaLoai = cbbTypeRoom.SelectedValue.ToString();
             if (rdbStatus1.Checked)
             {
                 room.TrangThai = "Trống";
             }
-            else if (rdbStatus2.Checked) {
-                room.TrangThai = "Đang thuê";
+            else if (rdbStatus2.Checked)
+            {
+                room.TrangThai = "Đang Thuê";
             }
             else if (rdbStatus3.Checked)
             {
-                room.TrangThai = "Đang sửa chữa";
-            }  
+                room.TrangThai = "Đang Sữa Chữa";
+            }
             room.GhiChu = rtbNote.Text;
-             
+
             return room;
         }
-
 
         // CRUD 
         private void btnAddRoom_Click(object sender, EventArgs e)
@@ -146,12 +147,20 @@ namespace QuanLyPhongTro.GUI.Forms
                 {
 
                     DTO.Room r = getRoom();
-                    if (bllRoom.UpdateRoom(r) == true)
+                    if (r.TrangThai == "Trống" && bllRoom.ExistRoomInContract(txtIDRoom.Text))
                     {
-                        ReloadEvent?.Invoke();
-                        Notifi.Show("Thực hiện cập nhật thanh công", Notifi.typeNotify.success);
-                       
+                        Notifi.Show("Phòng đã có hợp đồng không thể tự ý cập nhật", Notifi.typeNotify.warning);
                     }
+                    else
+                    {
+                        if (bllRoom.UpdateRoom(r) == true)
+                        {
+                            ReloadEvent?.Invoke();
+                            Notifi.Show("Thực hiện cập nhật thanh công", Notifi.typeNotify.success);
+
+                        }
+                    }
+
                 }
 
             }
